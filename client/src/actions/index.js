@@ -50,3 +50,20 @@ export const deleteStream = (id) => async dispatch => {
 
   dispatch({ type: DELETE_STREAM, payload: id });
 }
+
+
+// object base approach using Key Interpolation
+
+// const streamReducer = (state = {}, action) => {
+//   switch (action.type) {
+//     case EDIT_STREAM:
+//       // const newState = { ...state };
+//       // newState[action.payload.id] = action.payload;
+//       // return newState;
+//       // es2016 syntax "key interpolation"
+//       return { ...state, [action.payload.id]: action.payload };
+
+//     default:
+//       return state;
+//   }
+// }
