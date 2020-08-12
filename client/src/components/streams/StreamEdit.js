@@ -3,7 +3,6 @@ import { connect } from "react-redux"
 
 const StreamEdit = (props) => {
     console.log(props);
-
     return <div>StreamEdit</div>;
 }
 
