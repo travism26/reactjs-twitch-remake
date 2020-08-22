@@ -15,7 +15,4 @@ Basic streaming service remake practicing my reactjs + redux programming
 
 # Navigation 
 
-## Working Pages all pages are WIP
-I Did not finish development yet
-- /streams/new (WIP)
-- / (WIP)
+## Working Pages
