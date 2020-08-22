@@ -15,4 +15,8 @@ Basic streaming service remake practicing my reactjs + redux programming
 
 # Navigation 
 
-## Working Pages
+## List all streams
+![](screenshots/stream_list_page.png)
+
+## Show running stream
+![](screenshots/streaming_show.png)
